@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
 }
@@ -51,10 +52,10 @@ top: 138px;
 .container{
     position: relative;
     top: 350px;
-    height: 200vh;
+    height: 1500px;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 6% 22% 40% 8% ;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 7% 22% 30% 8% ;
 }
 
 
@@ -90,29 +91,29 @@ top: 138px;
     height: 40px;    
 }
 #n1{
-    position: absolute;
-    top: 130px;
-    left: 45vh;
-   width: 60vh;
+    position: relative;
+    top: 35px;
+    left:40px;
+   width: 40vh;
 }
 #n1 button{
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 #n2{
-    position: absolute;
-    top: 130px;
-    left: 95vh;
+    position: relative;
+    top: -138px;
+    left: 350px;
     width: 20vh;
 }
 #n2 button{
     margin-top: 30px;
 }
 #n3{
-    position: absolute;
-    top: 130px;
-    left: 122vh; 
-    width: 43vh;
+    position: relative;
+    top: -330px;
+    left: 540px; 
+    width: 30vh;
 }
 #n3 button{
     margin-left: 50px;
@@ -155,7 +156,52 @@ button:hover{
     grid-row-start: 3;
     grid-column-start: 2;
  }
+.recent-projects-card{
+position: relative;
+width: 800px;
+height: 400px;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.recent-projects-card h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: lighter;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+.recent-projects-card p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    width: 250px;  
+}
+img{
+    width:200px;
+    height: 150px;
+}
+#re a{
+padding-left: 80px;
+font-family: 'Libre Franklin', sans-serif;
+text-decoration: none;
+font-size: 13px;
+}
+#card1,#card2,#card3{
+    height: 340px;
+    position: absolute;
+    top: 50px;
+}
+#card1{
+ left: 30px;
+}
+#card2{
+    left: 290px;
+}
+#card3{
+    left:560px ;
+}
 
  /*Experince section*/
  #exp{
@@ -189,9 +235,9 @@ button:hover{
  footer{
      background-color: #54BAB9;
      width: 100%;
-     height: 240px;
+     height: 250px;
      position: absolute;
-     top: 230vh;
+     top: 220vh;
      left: 0%;
      padding-top:10px ;
      color: white;
@@ -219,4 +265,7 @@ svg{
     padding-top: 15px;
     width: 50px;
     height: 50px;
+}
+@media screen {
+    
 }
