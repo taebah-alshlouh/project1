@@ -1,0 +1,67 @@
+
+
+
+/*width 1440 t0 1024 px*/
+    @media screen and (max-width:1440px) and (min-width:1024px){
+        #container-footer {
+            margin-top: 15%;}
+
+         .recent-projects-card {
+                margin-left: -5%;}
+           
+                   footer {
+                    top: 219vh;
+                    width: 1435px;
+                }
+             .f-logo {
+                        margin-top: 35px;
+                        margin-left: -24px;
+                    }
+            header{
+                width: 100%;
+            }
+            #objec {
+                padding-top: 39px;
+                padding-left: 50px;
+            }
+    }
+    /*1024 to 768px*/
+    @media screen and (max-width:1024px) and (min-width:768px){
+
+        .recent-projects-card {
+            margin-left: -175px;
+            width: 710px;}
+            .edu-div {
+                margin-left: -160px;
+                height: 238px;
+            }
+            img {
+                width: 180px;
+                height: 148px;
+            }
+            #card2 {
+                left: 280px;
+            }
+            #card3 {
+                left: 515px;
+            }
+            
+            #n2 {
+                top: -140px;
+                left: 344px;}
+            #n3 {
+                top: -345px;
+                left: 480px;
+            }
+            footer {
+                width: 768px;              
+              top: 250vh;
+            }
+            .f-logo {
+                margin-top: 40px;
+                margin-left: -2px;
+            }           
+    }
+    @media screen and (max-width:768px) and (min-width:425px) {
+        
+    }
