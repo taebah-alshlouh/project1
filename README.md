@@ -11,4 +11,4 @@ in my project.
 
 [Live Link](https://taebah-alshlouh.github.io/project1/)
 
-![<img src='Mockup&wireframe.png' alt='Mockup&wireframe'>](Mockup&wireframe.png)
+![Mockup&wireframe](Mockup&wireframe.png)
