@@ -1,5 +1,13 @@
-
-
+@media screen and (max-width:958px) {
+   .tab{
+        margin-left: 10% ;
+    }
+}
+@media screen and(max-width:687.200px) {
+     .tab{
+         margin-left:5% ;
+     }
+}
 
 /*width 1440 t0 1024 px*/
     @media screen and (max-width:1440px) and (min-width:1024px){
@@ -63,5 +71,6 @@
             }           
     }
     @media screen and (max-width:768px) and (min-width:425px) {
+        
         
     }

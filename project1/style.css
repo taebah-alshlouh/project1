@@ -194,11 +194,15 @@ img{
     width:230px;
     height: 160px;
 }
-#re a{
+.rec-a{
 padding-left: 90px;
 font-family: 'Libre Franklin', sans-serif;
 text-decoration: none;
-font-size: 13px;
+font-size: 14px;
+color: black;
+}
+.rec-a:hover{
+ color: #54BAB9;
 }
 #card1,#card2,#card3{
     height: 340px;
