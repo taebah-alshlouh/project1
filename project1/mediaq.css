@@ -43,8 +43,9 @@
      }
 }
 
+
 /*width 1440 t0 1024 px*/
-    @media screen and (max-width:1440px) and (min-width:1024px){
+    @media screen and (max-width:1440px){
         #container-footer {
             margin-top: 15%;}
 
@@ -103,19 +104,7 @@
                 margin-top: 40px;
                 margin-left: -2px;
             }           
-    }
-    @media screen and (max-width:425.600px) {
-       
-        header {
-            width: 701px;}
-            footer {
-                width: 703px;
-                top: 222vh;
-            }
-            #objecp {
-                font-size: 14px;}
-        
-    }       
+    }     
     @media screen and (max-width:753.400px){
         .nav a {
             color: white;
@@ -165,7 +154,7 @@
         }
     }
  
-    @media screen and (min-width:482px) and (max-width:710.200px){
+    @media screen and (min-width:482px) and (max-width:600.200px){
         img {
             width: 104px;
             height: 93px;
@@ -175,23 +164,25 @@
         }
         #n1 {
             position: relative;
-            top: 18px;
-            left: 40px;
-            width: 20vh;
+            top: 16px;
+            left: -29px;
+            width: 17vh;
         }
         #n2 {
             position: relative;
-            top: -202px;
-            left: 390px;
+            top: -226px;
             width: 16vh;
+            top: -213px;
+            left: 83px;
         }
-        #n2 {
-            left: 172px;
-        }
+
         #n3 {
-            left: 341px;}
+            top: -444px;
+            left: 212px;
+            width: 21vh ;
+        }
             #card1 {
-                left: -20px;
+                left: 17px;
             }
             #card2 {
                 left: 151px;
@@ -204,9 +195,12 @@
                 width: 320px;
                 height: 308px;
             }
+            .recent-projects-card {
+                margin-left: -71px;
+            }
             footer {
                 width: 485px;
-                top: 224vh;
+                top: 216vh;
             }
             .recent-projects-card h3 {
                 font-family: 'Roboto', sans-serif;
@@ -219,5 +213,52 @@
                 font-size: 10px;
                 width: 123px;
             }
+            #objecp {
+                font-family: sans-serif;
+                font-size:12px;}
+                .edu-div {
+                    height: 0px;
+                }
+                #n1 button {
+                    margin-top: -3px;
+                    margin-left: 8px;
+                }
+                #n2 button {
+                    margin-top: 57px;
+                }
+                #n3 button {
+                    margin-left: 64px;
+                }
+                .edu-div button {
+                    font-size: 9px;
+                    width: 70px;}
+                    .rec-a {
+                        padding-left:10px}
+                   .container1 {
+                    top: 412px;
+                    height: 1477px;
+                        }
+                 #objec {
+                      padding-top: 13px;
+                      padding-left: 0px;
+                 }
+                 #fdiv3 q {
+                    font-size: 10px;
+                }
+                #fdiv1 p {
+                    font-size: 10px;
+                }
+    }
+    @media screen and(min-width:601px) and (max-width:629) {
+        footer {
+            top: 214vh;
+            width: 629px;
+        }
+        #fdiv3 q {
+            font-size: 10px;
+        }
+        #card1 {
+            left: 80px;
+        }
         
     }
