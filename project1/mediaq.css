@@ -1,9 +1,43 @@
+@media screen and (max-width:768.800px) {
+    footer{
+        top: 223vh;
+        width: 985px;
+    }
+    .nav a{
+        margin-left: 5% !important;
+    }
+}
+@media screen and (max-width:843.200px){
+    footer{
+            width: 842px;
+            top: 224vh;
+    }
+    
+}
+@media screen and (max-width:750.400px){
+    img {
+        width: 148px;
+        height: 118px;
+    }
+    #n1{
+        left: -121px;
+    }
+    #objec {
+      
+        padding-top: 3px;
+        padding-left: 0px;
+    }
+    .container1 {
+        top: 380px;
+        height: 1300px;}
+    
+}
 @media screen and (max-width:958px) {
    .tab{
         margin-left: 10% ;
     }
 }
-@media screen and(max-width:687.200px) {
+@media screen and (max-width:687.200px) {
      .tab{
          margin-left:5% ;
      }
@@ -70,7 +104,120 @@
                 margin-left: -2px;
             }           
     }
-    @media screen and (max-width:768px) and (min-width:425px) {
+    @media screen and (max-width:425.600px) {
+       
+        header {
+            width: 701px;}
+            footer {
+                width: 703px;
+                top: 222vh;
+            }
+            #objecp {
+                font-size: 14px;}
         
+    }       
+    @media screen and (max-width:753.400px){
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 5%;
+        }
+    }
+    @media screen and (max-width:742.400px){
+        #n1 {
+            position: relative;
+            top: 35px;
+            left: -94px;
+            width: 40vh;
+        }
+        #n2 {
+            position: relative;
+            top: -138px;
+            left: 197px;}
+            #n3 {
+                position: relative;
+                top: -330px;
+                left: 373px;}
+                .recent-projects-card {
+                    margin-left: -190px;}
+                    img {
+                        width: 188px;
+                        height: 156px;
+                    }
+                    
+                    .recent-projects-card h3 {
+                        font-size: 15px;
+                        padding-left: 10px;
+                        font-weight: lighter;
+                    }
+    }
+    @media screen and (min-width:787.200px) and (max-width:800px){
+        .edu-div {
+            margin-left: -53px;
+            height: 271px;
+        }
+        .recent-projects-card {
+            margin-left: -149px;
+        }
+        footer {
+            width: 787px;
+            top: 225vh;
+        }
+    }
+ 
+    @media screen and (min-width:482px) and (max-width:710.200px){
+        img {
+            width: 104px;
+            height: 93px;
+        }
+        #n1 {
+            left: -82px;
+        }
+        #n1 {
+            position: relative;
+            top: 18px;
+            left: 40px;
+            width: 20vh;
+        }
+        #n2 {
+            position: relative;
+            top: -202px;
+            left: 390px;
+            width: 16vh;
+        }
+        #n2 {
+            left: 172px;
+        }
+        #n3 {
+            left: 341px;}
+            #card1 {
+                left: -20px;
+            }
+            #card2 {
+                left: 151px;
+            }
+            #card3 {
+                left: 282px;
+            }
+            .recent-projects-card {
+                position: relative;
+                width: 320px;
+                height: 308px;
+            }
+            footer {
+                width: 485px;
+                top: 224vh;
+            }
+            .recent-projects-card h3 {
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                padding-left: 15px;
+                font-weight: lighter;
+            }
+            .recent-projects-card p {
+                font-family: 'Libre Franklin', sans-serif;
+                font-size: 10px;
+                width: 123px;
+            }
         
     }
