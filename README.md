@@ -11,4 +11,4 @@ in my project.
 
 [Live Link](https://taebah-alshlouh.github.io/project1/)
 
-![Mockupwireframe](MandW.png)
+![Mockupwireframe](mandw.png)
