@@ -64,20 +64,40 @@ span{
     background-color: white;
 }
 .hea{
-    margin-top: 5%;
-    margin-bottom: 4%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     font-family: Arial, sans-serif;
 }
 .rec-img{
-    margin-top: 10%;
+    margin-top: 4%;
     margin-left:12%;
-    width:80% ;
+    width:90% ;
     height: 60%;
 }
 .rec-sub{
     margin-left: 12%;
+    margin-bottom: 10%;
 }
- /*footer section*/
+/*experience*/
+.exp{
+    margin-top: 10%;
+}
+.exp-border-one{
+    border: 2px solid #E9DAC1;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+.exp-border-tow{
+border: 1px solid #E9DAC1;
+background-color: #e9dac16c;
+}
+.exp-border-tow p{
+    padding: 2%;
+}
+
+ /*footer*/
  footer{
     display: flex;
     flex-direction: row;
