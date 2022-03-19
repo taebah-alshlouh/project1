@@ -1,290 +1,103 @@
 
-*,html{
+*{
     box-sizing: border-box;
+    width: 100%;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 /*header section*/
   header{
       width: 100%;
-      height: 350px;
-      position: absolute;
-      top:0px;
-      left: 0px;
-      background-image: url("../imges/cdc.jpg");
-      background-repeat: no-repeat;
+      height: 50vh;
+      background-image:url("../imges/cdc.jpg");
       background-size: 100% 100%;
+      background-repeat: no-repeat;
+     
   }
   /*navigation bar*/
-  .nav{
-      width: 100%;
-      background-color: #54BAB9;
-      height:50px;
-      position: absolute;
-      top: 350px;
-      padding-top: 12px;
+  .nav-link{
+      padding: 0%;
   }
-  .nav a{
-      color: white;
-      text-decoration: none;
-      margin-left: 10%;
-  }
-  #header-midd-cont{
-      position: absolute;
-      top: 27%;
-      left: 40%;
-      width: 300px;
-      height: 250px;
-     }
-  #mypic{
-      width:146px ;
-      height: 150px;
-      border: 12px solid #E9DAC1;
-      border-radius: 55%;
-      margin-left: 70px;
-  }
-div #header-midd-cont-1{
-position: absolute;
-top: 138px;
- }
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=PT+Sans&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Oxygen:wght@400;700&family=PT+Sans&display=swap');
-
-#header-midd-cont-1 h2{
-    font-family: 'Merriweather Sans', sans-serif;
-    padding-left:10px ;
-}
-#header-midd-cont-1 p{
-    position: absolute;
-    top: 35px;
-    padding-left: 55px;
-    font-size: 20px;
-    font-family: 'Oxygen', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-}
-
-
-/*main grid*/
-.container1{
-    position: relative;
-    top: 380px;
-    height: 1500px;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 9% 22% 30% 10% ;
-}
-
-
-/*objectives section*/
-#objec{
-    grid-column-start: 2;
-    grid-row-start: 1;
-    padding-top: 25px;
-    padding-left: 50px;
-}
-#objecp{
-    font-family: sans-serif;
-    font-size: large;
-    font-family: 'PT Sans', sans-serif;
-} 
-
-
-/*education section*/
-#edu{
-    grid-row-start: 2;
-    grid-column-start: 2;
-}
-.edu-div{
-    height:200px ;
-}
-/*buttons style*/
-.edu-div button{
-    font-size: 14px;
-    color: white;
+  .l1{
     background-color: #54BAB9;
-    border:1px solid #54BAB9;
-    border-radius: 10px;
-    width: 90px;
-    height: 40px;    
+    height: 10vh;
+    padding-top: 1%;
+    font-size: 90%;
+    display:flex !important;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
-#n1{
-    position: relative;
-    top: 35px;
-    left:40px;
-   width: 40vh;
-}
-#n1 button{
-    margin-top: 20px;
-    margin-left: 40px;
-}
-#n2{
-    position: relative;
-    top: -138px;
-    left: 390px;
-    width: 20vh;
-}
-#n2 button{
-    margin-top: 30px;
-}
-#n3{
-    position: relative;
-    top: -330px;
-    left: 600px; 
-    width: 30vh;
-}
-#n3 button{
-    margin-left: 50px;
-}
+  a{
+    color: white !important;
 
+  }
 
-/*hover button*/
-button:hover{
-    color: rgb(165, 91, 7);
-    border:2px solid #fde3b6 ;
-    border-radius: 14px;
-    background-color: #fde3b6;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
-}
-.h2 {
-    font-family: 'Open Sans', sans-serif;
-    width: 100%; 
+  #mypic{
+      width:20% ;
+      height: 50%;
+      border: 12px solid #E9DAC1;
+      border-radius: 50%;
+      margin-top: 7%;
+      margin-left: 2%;
+  }
+h2{
+    color: #54BAB9 !important;
+    font-size: 150% !important;
     text-align: center; 
-    color: #54BAB9;
-    border-bottom: 3.5px solid #E9DAC1; 
+    border-bottom: 3.5px solid #E9DAC1 ; 
     border-radius: 2px;
-    line-height: 0.5em;
+    line-height: 0.1em !important;
+    width: 100%; 
     margin: 10px 0 10px; 
- } 
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
- h2 span { 
-     background-color:#fff; 
-     padding:0 15px; 
- }
-
-
-
-/*recent projects section*/
- #re{
-    grid-row-start: 3;
-    grid-column-start: 2;
- }
-.recent-projects-card{
-position: relative;
-width: 800px;
-height: 400px;
 }
+h2::before{
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-.recent-projects-card h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    padding-left: 30px;
-    font-weight: lighter;
+    background-color: white;
+    z-index: -2;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
-
-.recent-projects-card p{
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 13px;
-    width: 250px;  
+h2::after{
+    background-color: white;
+    z-index: -2;
 }
-img{
-    width:230px;
-    height: 160px;
+span{
+    background-color: white;
 }
-.rec-a{
-padding-left: 90px;
-font-family: 'Libre Franklin', sans-serif;
-text-decoration: none;
-font-size: 14px;
-color: black;
+.hea{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-family: Arial, sans-serif;
 }
-.rec-a:hover{
- color: #54BAB9;
+.rec-img{
+    margin-top: 10%;
+    margin-left:12%;
+    width:80% ;
+    height: 60%;
 }
-#card1,#card2,#card3{
-    height: 340px;
-    position: absolute;
-    top: 50px;
+.rec-sub{
+    margin-left: 12%;
 }
-#card1{
- left: 45px;
-}
-#card2{
-    left: 340px;
-}
-#card3{
-    left:630px ;
-}
-
-
- /*Experince section*/
- #exp{
-    grid-row-start: 4;
-    grid-column-start: 2;
- }
- #exp-p{
-    margin-top: 60px;
-    padding: 10px;
-    width: 100%;
-    height:100%;
-   border: 1px double rgb(202, 202, 202);
-}
- #exp-p-div{
-     width: 100%;
-     height: 100%;
-     border: 1px solid rgb(202, 202, 202);
-     background-color: #FBF8F1;
- }
- #exp-p-div p{
-     padding-top: 10px;
-     padding-left: 20px;
- }
-
-
  /*footer section*/
- #container-footer{
-     display: grid;
-     grid-template-columns: 23% 18% 8% 20% 19% 15%;
-     grid-template-rows: 100%;
- }
  footer{
-     background-color: #54BAB9;
-     width: 100%;
-     height: 250px;
-     position: absolute;
-     top: 220vh;
-     left: 0%;
-     padding-top:10px ;
-     color: white;
-     font-family:  'Arial Narrow Bold', sans-serif;
- }
- /*logo*/
- .f-logo{
-     margin-top: 35px;
-   margin-left: 35px;   
- }
- /*div's in the footer*/
-#fdiv1{
-    grid-column-start: 2;
-    
-}
-#fdiv1 p{
-    font-size: 13px;
-}
-#fdiv2{
-    grid-column-start: 4;
-}
-#fdiv3{
-    grid-column-start: 5;
-}
-/*style ofthe third div in the footer*/
-#fdiv3 q{
-    font-size: 17px;
-}
-svg{
-    padding-top: 15px;
-    width: 50px;
-    height: 50px;
-}
+    display: flex;
+    flex-direction: row;
+    height:30vh;
+    margin-top: 10%;
+    background-color: #54BAB9;
+    font-size: 90%;
+    color: white;
+    padding-top: 2%;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    }
+   #logo{
+        width: 50%;  
+         height:50% ;
+    }
+
+    svg{
+        width: 10%;
+        height: 10%;
+    }
+   
+
+
