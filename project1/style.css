@@ -5,9 +5,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 100%;
-}
+
 /*header section*/
   header{
       width: 100%;
@@ -99,7 +97,7 @@ background-color: #FBF8F1;
  footer{
     display: flex;
     flex-direction: row;
-    height:35vh;
+    height:auto;
     margin-top: 10%;
     background-color: #54BAB9;
     font-size: 1vw;
@@ -120,6 +118,24 @@ background-color: #FBF8F1;
         width: 20%;
         height: 20%;
     }
+    /*media */
+    @media screen and (min-width:300px) and(max-width:375px) 
+{
+    #mypic {
+        margin-top: 29% !important;
+    }
+    .list-contant {
+        font-size: 10px !important;
+  }
+  .nav-link{
+      padding: 0;
+  }
+  footer{
+      height: 40vh !important;
+      font-size: unset;
+
+  }
+}
    
 
 
